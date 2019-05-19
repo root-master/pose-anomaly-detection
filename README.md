@@ -1,4 +1,4 @@
-Pose Anomaly Detection From Video Surveillance Data
+Anomaly Detection From Humans' Pose in Video Surveillance Data
 =================
 
 ## Data
