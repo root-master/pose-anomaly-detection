@@ -6,4 +6,5 @@ We use [UCF Crime Data](https://www.crcv.ucf.edu/projects/real-world/) for Real-
 
 ## Reference
 [1] [UCF Crime Data](https://www.crcv.ucf.edu/projects/real-world/)
+
 [2] Sultani et. al. (2019). [Real-world Anomaly Detection in Surveillance Videos.](https://arxiv.org/pdf/1801.04264.pdf) 
