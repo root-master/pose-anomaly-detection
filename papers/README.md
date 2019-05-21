@@ -1,0 +1,1 @@
+Faster R-CNN paper: [https://arxiv.org/pdf/1506.01497.pdf](https://arxiv.org/pdf/1506.01497.pdf)
