@@ -1,6 +1,9 @@
-# Data
+# Folders
 data/
 papers/
+AlphaPose/
+temp-ffmpeg/
+pose-features/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

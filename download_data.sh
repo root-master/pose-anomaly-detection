@@ -1,4 +1,4 @@
-#!/bin/bash          
+#!/bin/bash
 
 declare -a URLS=("https://www.dropbox.com/sh/75v5ehq4cdg5g5g/AACxcnr1G--t0KWdrpj1tQmpa/Anomaly_Train.txt?dl=0"
 				 "https://www.dropbox.com/sh/75v5ehq4cdg5g5g/AABJtkTnNc8LcVTfH1gE_uFoa/Anomaly-Videos-Part-1.zip?dl=0"
