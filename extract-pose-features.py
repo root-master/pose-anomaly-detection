@@ -12,7 +12,7 @@ anomaly_type = "Assault"
 anomaly_data_part = """data/Anomaly-Videos-Part-1"""
 anomaly_video_folder_path = anomaly_data_part + """/Assault/"""
 anomaly_video_file_path = anomaly_video_folder_path + anomaly_video_file_name
-repo_path = """/media/pose-anomaly-detection/"""
+repo_path = """/media/sdc1/pose-anomaly-detection/"""
 
 anomaly_video_absolute_path = repo_path + anomaly_video_file_path
 
