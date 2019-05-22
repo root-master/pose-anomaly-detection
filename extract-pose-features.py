@@ -44,7 +44,8 @@ while(True):
 
 	if ret: 
 	# if video is still left continue creating images 
-		name = temp_folder + str(int(currentframe)) + '.jpg'
+		frame_str = "%06d"%(currentframe)
+		name = temp_folder + frame_str + '.jpg'
 		print('Creating frame', name) 
 		# print(currentframe)
 
