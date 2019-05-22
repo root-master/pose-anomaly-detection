@@ -1,26 +1,7 @@
-import ffmpeg # ffmpeg-python package
+# import ffmpeg # ffmpeg-python package
 import cv2 
 import os 
 ##################### Dataset #####################
-
-def slash_join(*args):
-    '''
-    Joins a set of strings with a slash (/) between them. Useful for creating URLs.
-    If the strings already have a trailing or leading slash, it is ignored.
-    Note that the python's urllib.parse.urljoin() does not offer this functionality. 
-    '''
-    stripped_strings = []
-    # strip any leading or trailing slashes
-    for a in args:
-        if a[0] == '/': start = 1
-        else:           start = 0
-        if a[-1] =='/':
-            stripped_strings.append(a[start:-1])
-        else:
-            stripped_strings.append(a[start:])
-
-    return '/'.join(stripped_strings)
-
 # the files in data base have certain structures
 # Anomaly-Videos-Part-{1,2,3,4}
 anomaly_categories = ["Assault","Arson","Fighting","Robbery"]
