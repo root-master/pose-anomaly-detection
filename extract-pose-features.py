@@ -17,7 +17,7 @@ repo_path = """/media/pose-anomaly-detection/"""
 anomaly_video_absolute_path = repo_path + anomaly_video_file_path
 
 ##################### Feature extraction and tracking ##################### 
-stream = ffmpeg.input(anomaly_video_file_path)
+# stream = ffmpeg.input(anomaly_video_file_path)
 
 cam = cv2.VideoCapture(anomaly_video_absolute_path)
 
