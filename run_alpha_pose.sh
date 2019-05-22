@@ -4,4 +4,4 @@ declare VIDEO="/media/sdc1/pose-anomaly-detection/data/Anomaly-Videos-Part-1/Ass
 declare RESULTS="/media/sdc1/pose-anomaly-detection/pose-features/Assault"
 declare ALPHAPOSE="/media/sdc1/AlphaPose/video_demo.py"
 
-python3 $ALPHAPOSE --video $VIDOE --outdir $RESULTS --save_video
+python3 $ALPHAPOSE --video ${VIDOE} --outdir ${RESULTS} --save_video
