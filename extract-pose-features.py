@@ -34,7 +34,7 @@ try:
 		os.makedirs('data') 
 	# if not created then raise error 
 except: 
-	print ('Error: Creating directory of data')
+	print('Error: Creating directory of data')
 
 # frame 
 currentframe = 0
@@ -44,7 +44,7 @@ while(True):
 
 	if ret: 
 	# if video is still left continue creating images 
-		frame_str = "%06d"%(currentframe)
+		frame_str = "%d"%(currentframe)
 		name = temp_folder + frame_str + '.jpg'
 		print('Creating frame', name) 
 		# print(currentframe)
