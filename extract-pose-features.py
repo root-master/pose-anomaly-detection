@@ -22,7 +22,7 @@ anomaly_video_absolute_path = repo_path + anomaly_video_file_path
 cam = cv2.VideoCapture(anomaly_video_absolute_path)
 
 # folder to save video frames (ffmpeg output) temporarily
-temp_folder = """temp-ffmpeg/""" + anomaly_video_file_name[:-8] # remove 'x264.mp4'
+temp_folder = """temp-ffmpeg/""" # + anomaly_video_file_name[:-8] # remove 'x264.mp4'
 
 # save pose features
 # TODO: create folder if it doesn't exists
